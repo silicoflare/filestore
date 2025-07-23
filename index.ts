@@ -153,3 +153,5 @@ export class FileStorage {
     );
   }
 }
+
+export default FileStorage;

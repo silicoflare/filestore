@@ -5,10 +5,13 @@
     "declaration": true,
     "declarationDir": "dist/types",
     "outDir": "dist",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
   "include": [
     "index.ts"
