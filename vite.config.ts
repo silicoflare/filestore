@@ -7,6 +7,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'index.ts'),
       name: 'FileStorage',
       fileName: () => `index.js`,
+      formats: ['es'],
     },
     rollupOptions: {
       external: ['@aws-sdk/client-s3', '@aws-sdk/s3-request-presigner'],
@@ -18,5 +19,6 @@ export default defineConfig({
         },
       },
     },
+    minify: false,
   },
 });
